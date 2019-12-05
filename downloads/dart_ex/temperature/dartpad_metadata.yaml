@@ -1,0 +1,4 @@
+name: Dart HTML test with just main
+mode: html
+files:
+  - name: temperature.dart
