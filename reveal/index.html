@@ -14,7 +14,7 @@ CMSimfly 網際內容管理
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="css/theme/sky.css" id="theme">
     
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -39,15 +39,15 @@ CMSimfly 網際內容管理
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-## CMSimfly 網際內容管理
+## 計算機程式期末報告
 
-### KMOLab
+### 設計一甲   40823135
+### 林澤叡
 
-<small>
-Created by [KMOLab](http://lab.kmol.info/)
+
 </small>
 
-[CMSimfly 網誌](./../blog/index.html)
+2020/1/9
 
 
     </script>
@@ -57,30 +57,21 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+重量轉換    
+<iframe width="800" height="500" src="https://dartpad.github.io/embed-html.html?gh_owner=40823135&gh_repo=cp2019&gh_path=downloads/dart_ex/weight&theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </script>
 </section>
 
 
 						
-<section>
+
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
+溫度轉換
+<iframe width="800" height="500" src="https://dartpad.github.io/embed-html.html?gh_owner=40823135&gh_repo=cp2019&gh_path=downloads/dart_ex/temperature-1&theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
     </script>
 </section>
 
@@ -90,32 +81,9 @@ $$I = \int \rho R^{2} dV$$
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+國旗
+<iframe width="800" height="500" src="https://dartpad.github.io/embed-html.html?gh_owner=40823135&gh_repo=cp2019&gh_path=downloads/dart_ex/flag2&theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
     </script>
 </section>
 
@@ -124,11 +92,12 @@ make.start()
 						
 <section data-markdown>
     <script type="text/template">
-## 使用 iframe 導入影片
 
-### 導入影片 template
 
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+心得 : 
+這堂課是我第一次接觸到電腦程式撰寫的課程，從最初的網站建立到簡單的程式，最後是利用程式來分析與解決問題，以及繪製一些圖形，這些都是一般平常在其他地方無法看到的課程內容。
+生活在這個電腦至上的環境中，如果身為機械相關的工程師卻不會使用電腦設計一些程式，那在未來的競爭力絕對是在底端的層級，透過學習這個課程，我可以更加增進自己這方面的相關知識與內涵，並在以後發揮及應用。
+
     </script>
 </section>
 
